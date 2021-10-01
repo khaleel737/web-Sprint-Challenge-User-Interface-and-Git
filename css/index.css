@@ -228,14 +228,15 @@ footer nav a {
 
 .middle-content-about {
     display: flex;
-    /* justify-content: space-evenly;
-    justify-content: space-between; */
     align-items: center;
     margin: 6% 0%;    
 }
 
-.about-section {
+.text-section-about {
     border-bottom: 1px dotted black;
+}
+
+.about-section {
     line-height: 1.7;
     align-items: center;
     margin: 5% 0;
@@ -259,42 +260,28 @@ footer nav a {
 
 .strategy {
     border-bottom: 1px dotted black;
-    /* margin: 4% 2%; */
     padding: 2%;
     line-height: 2;
     margin-bottom: 7%;
-
 }
 
 .how-we-work {
     border-bottom: 1px dotted black;
-    /* margin: auto; */
     padding: 2%;
     line-height: 2;
-
-
-
 }
 
 .collaboration {
     border-bottom: 1px dotted black;
-    /* margin: 4% 0%; */
     padding: 2%;
     line-height: 2;
-
-
-
 }
 
 .places-we-work {
     border-bottom: 1px dotted black;
-    /* margin: 4% 0%; */
     padding: 2%;
     line-height: 2;
     margin-bottom: 7%;
-
-
-
 }
 
 .work-together {
