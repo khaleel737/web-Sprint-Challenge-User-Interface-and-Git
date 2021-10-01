@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -65,6 +66,15 @@ h1, h2, h3, h4, h5 {
 a {
     text-decoration: none;
     color: black;
+}
+
+button {
+    padding: 3% 10%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1rem;
 }
 
 p {
@@ -211,4 +221,82 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page CSS */
+
+.middle-content-about {
+    display: flex;
+    /* justify-content: space-evenly;
+    justify-content: space-between; */
+    align-items: center;
+    margin: 6% 0%;    
+}
+
+.about-section {
+    border-bottom: 1px dotted black;
+    line-height: 1.7;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.first-part {
+    padding-right: 2%;
+}
+
+.first-part button {
+    margin: 4% 0%;
+}
+
+.second-part {
+    padding-left: 2%;
+}
+
+.second-part button {
+    margin: 4% 0%;
+}
+
+.strategy {
+    border-bottom: 1px dotted black;
+    /* margin: 4% 2%; */
+    padding: 2%;
+    line-height: 2;
+    margin-bottom: 7%;
+
+}
+
+.how-we-work {
+    border-bottom: 1px dotted black;
+    /* margin: auto; */
+    padding: 2%;
+    line-height: 2;
+
+
+
+}
+
+.collaboration {
+    border-bottom: 1px dotted black;
+    /* margin: 4% 0%; */
+    padding: 2%;
+    line-height: 2;
+
+
+
+}
+
+.places-we-work {
+    border-bottom: 1px dotted black;
+    /* margin: 4% 0%; */
+    padding: 2%;
+    line-height: 2;
+    margin-bottom: 7%;
+
+
+
+}
+
+.work-together {
+    margin: 4% 0;
 }
